@@ -22,6 +22,9 @@ class App extends Component {
     e.preventDefault();
     console.log('Submitted:');
     console.log(this.state);
+    this.setState({username: ''})
+    this.setState({email: ''})
+    this.setState({city: 'Please Select'})
   }
 
   render() {
