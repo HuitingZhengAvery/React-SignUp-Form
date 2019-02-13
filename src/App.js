@@ -48,6 +48,7 @@ class App extends Component {
         <div>
         <label>City</label> {/* how to log city to console when options remain unchanged */}
           <select id="city" onClick={event=>this.setState({city: event.target.value})}>
+          <option value="Please Select">Please Select</option>
           <option value="Melbourne">Melbourne</option>
           <option value="Brisbane">Brisbane</option>
           <option value='Sydney'>Sydney</option>
